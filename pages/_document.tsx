@@ -82,7 +82,7 @@ export default class MyDocument extends Document {
   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-  ym(86342837, "init", {
+  ym(86078440, "init", {
         clickmap:true,
         trackLinks:true,
         accurateTrackBounce:true,
@@ -94,7 +94,7 @@ export default class MyDocument extends Document {
             <noscript
               dangerouslySetInnerHTML={{
                 __html: `
-                <div><img src="https://mc.yandex.ru/watch/86342837" style="position:absolute; left:-9999px;" alt="" /></div>
+                <div><img src="https://mc.yandex.ru/watch/86078440" style="position:absolute; left:-9999px;" alt="" /></div>
 `
               }}
             />
