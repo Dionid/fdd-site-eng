@@ -2,7 +2,7 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '8375ba5873e24b099f3c3b5b31889b93',
+  rootNotionPageId: 'b169f492c8b0414f89f9af0d344cf6ba',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
@@ -11,7 +11,7 @@ export default siteConfig({
   // basic site info (required)
   name: 'Fatigue Driven Development (FDD)',
   domain: 'fdd.davidshekunts.ru',
-  author: '👨🏻 David Shekunts',
+  author: '👨🏻 David Shekunts 👴🏿',
 
   // open graph metadata (optional)
   description:
@@ -45,7 +45,7 @@ export default siteConfig({
   // example:
   //
   pageUrlOverrides: {
-    '/': '8375ba5873e24b099f3c3b5b31889b93'
+    '/': 'b169f492c8b0414f89f9af0d344cf6ba'
   },
   // pageUrlOverrides: null,
 
