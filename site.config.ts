@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Fatigue Driven Development (FDD)',
-  domain: 'fdd.davidshekunts.ru',
+  domain: 'fdd.davidshekunts.com',
   author: '👨🏻 David Shekunts 👴🏿',
 
   // open graph metadata (optional)
