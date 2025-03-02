@@ -2,7 +2,7 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: 'b169f492c8b0414f89f9af0d344cf6ba',
+  rootNotionPageId: '1aab59d9b4c980b68e38cd6c6f1b6bf9',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
@@ -15,7 +15,7 @@ export default siteConfig({
 
   // open graph metadata (optional)
   description:
-    'Fatigue Driven Development (FDD) – best-practice для ленивых.',
+    'Fatigue Driven Development (FDD) – best-practice for lazy ones.',
 
   // social usernames (optional)
   // twitter: 'transitive_bs',
@@ -45,7 +45,7 @@ export default siteConfig({
   // example:
   //
   pageUrlOverrides: {
-    '/': 'b169f492c8b0414f89f9af0d344cf6ba'
+    '/': '1aab59d9b4c980b68e38cd6c6f1b6bf9'
   },
   // pageUrlOverrides: null,
 
