@@ -2,6 +2,7 @@
 // import { fileURLToPath } from 'node:url'
 
 export default {
+  output: 'export',
   staticPageGenerationTimeout: 300,
   images: {
     remotePatterns: [
@@ -13,6 +14,7 @@ export default {
       { protocol: 'https', hostname: 's3.us-west-2.amazonaws.com' }
     ],
     formats: ['image/avif', 'image/webp'],
+    unoptimized: true,
     dangerouslyAllowSVG: true,
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;"
   },
