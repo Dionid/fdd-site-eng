@@ -9,13 +9,13 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'david shekunts – technical team lead',
+  name: 'david shekunts – tech lead (go || node.js || python)',
   domain: 'davids.sh',
   author: 'david shekunts',
 
   // open graph metadata (optional)
   description:
-    'small portfolio page of david shekunts – technical lead',
+    'small portfolio page of david shekunts – tech lead (go || node.js || python)',
 
   // social usernames (optional)
   // twitter: 'transitive_bs',
