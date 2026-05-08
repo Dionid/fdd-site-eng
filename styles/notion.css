@@ -7,7 +7,7 @@
  * places to add some flare.
  */
 
-.notion {
+ .notion {
   --notion-max-width: 730px;
   --notion-header-height: 54px;
   -webkit-font-smoothing: auto;
@@ -15,12 +15,10 @@
 }
 
 .notion-page {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  line-height: 1.7;
-  padding: 150px calc(min(15px, 8vw));
+  padding-bottom: 30vh;
+  line-height: 1.65;
+  padding-left: calc(min(15px, 8vw));
+  padding-right: calc(min(15px, 8vw));
 }
 
 @media only screen and (max-width: 920px) {
@@ -153,8 +151,6 @@
 
 .notion-callout {
   margin: 0.75em 0;
-  border: none;
-  border-radius: 10px;
 }
 
 .notion-hr {
@@ -541,11 +537,6 @@ ol > ol > .notion-code {
     overflow: hidden;
 }
 
-.notion-page-content {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 @media (min-width: 1300px) {
   .notion-page-content-has-aside .notion-page-content-inner {
     width: calc(var(--notion-max-width) - 30px);
@@ -571,48 +562,4 @@ ol > ol > .notion-code {
 
 .notion-table-view-header-cell-inner {
   border-right: 1px solid var(--fg-color-1);
-}
-
-
-.notion-callout-text > .notion-h {
-  margin-top: 0;
-  padding-top: 0;
-}
-
-.notion-callout-text > .notion-h .notion-hash-link {
-  display: none;
-}
-
-.dark-mode .notion-file-link .notion-file-icon {
-  color: #fff;
-  fill: #fff;
-}
-
-.notion-header, .notion-title, footer {
-  display: none !important;
-}
-
-.notion-callout-text > .notion-text {
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-top: 3px;
-  margin-bottom: 7px;
-}
-
-.dark-mode {
-  --notion-yellow: rgb(246 169 0);
-}
-
-.notion-page-icon-image {
-  margin-top: 6px;
-}
-
-@media (max-width: 640px) {
-  .notion-row .notion-column.notion-block-23fb59d9b4c9818ba1c2ce9b3d731a3b {
-    width: 150px !important;
-  }
-}
-
-.notion-page-no-cover.notion-page-no-icon {
-  padding-top: 150px;
 }
