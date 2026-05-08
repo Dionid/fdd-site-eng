@@ -2,20 +2,20 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '32db59d9b4c980c7a9edf384b34d11bb',
+  rootNotionPageId: '32ab59d9b4c980c6a6eac74842dab007',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Давид Шекунц – tech lead (go || node.js || python)',
-  domain: 'davids.sh',
-  author: 'Давид Шекунц',
+  name: 'clientful',
+  domain: 'clientful.davidshekunts.ru',
+  author: '👨🏻 David Shekunts 👴🏿',
 
   // open graph metadata (optional)
   description:
-    'Портфолио Давида Шекунца – tech lead (go || node.js || python)',
+    'clientful – многопользовательские приложения без серверов и баз данных.',
 
   // social usernames (optional)
   // twitter: 'transitive_bs',
