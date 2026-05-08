@@ -1,20 +1,21 @@
 import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
-  rootNotionPageId: '253b59d9b4c980f9b263e1b99a104e9f',
+  // the site's root Notion page (required)
+  rootNotionPageId: '1aab59d9b4c980b68e38cd6c6f1b6bf9',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Записки с High Load',
-  domain: 'high-load-notes.davidshekunts.ru',
+  name: 'High Load Notes',
+  domain: 'high-load-notes.davids.sh',
   author: '👨🏻 David Shekunts 👴🏿',
 
   // open graph metadata (optional)
   description:
-    'Записки с High Load – 52 best-practice для разработки high load приложений.',
+    'High Load Notes – 52 best practices for developing high load applications.',
 
   // social usernames (optional)
   // twitter: 'transitive_bs',
@@ -43,14 +44,13 @@ export default siteConfig({
   // example:
   //
   // pageUrlOverrides: {
-  //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
-  //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
-  // }
+  //   '/': '1aab59d9b4c980b68e38cd6c6f1b6bf9'
+  // },
   pageUrlOverrides: null,
 
   // whether to use the default notion navigation style or a custom one with links to
-  // important pages. To use `navigationLinks`, set `navigationStyle` to `custom`.
-  navigationStyle: 'default',
+  // important pages
+  navigationStyle: 'default'
   // navigationStyle: 'custom',
   // navigationLinks: [
   //   {
