@@ -1,21 +1,20 @@
 import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
-  // the site's root Notion page (required)
-  rootNotionPageId: '32ab59d9b4c980c6a6eac74842dab007',
+  rootNotionPageId: '253b59d9b4c980f9b263e1b99a104e9f',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'clientful',
-  domain: 'clientful.davidshekunts.ru',
+  name: 'Записки с High Load',
+  domain: 'high-load-notes.davidshekunts.ru',
   author: '👨🏻 David Shekunts 👴🏿',
 
   // open graph metadata (optional)
   description:
-    'clientful – real-time collaborative offline-first applications without backend services and databases.',
+    'Записки с High Load – 52 best-practice для разработки high load приложений.',
 
   // social usernames (optional)
   // twitter: 'transitive_bs',
